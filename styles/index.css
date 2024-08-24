@@ -1,49 +1,122 @@
-head {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
-
+/*CSS Dajabre Torain Home Page */
+head{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
 }
 
 body {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
 }
 
-header {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
+header{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
 }
+
+section{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+
+}
+
+aside{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+footer{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+h1 {
+    display: block;
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+h3 {
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+p {
+    background-color: var(--leather);
+    font-family: serif;
+    font-size: 20px;
+    color: var(--double-spanish-white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+li {
+    font-family: Georgia, serif;
+}
+
+
+li a {
+    display: block;
+    background-color: var(--double-spanish-white);
+    color: var(--old-copper);
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: var(--double-spanish-white);
+}
+
 
 nav {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    height: 15px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin: auto;
+    text-align: right;
+    font-family: Georgia, bold, serif;
+    color: var(--cedar);
+    font-size: 14px;
+
 }
 
-section {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
+nav a:hover {
+
+    background-color: var(--old-copper);
 }
 
-aside {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
+a {
+    display: inline-block;
+    margin: auto;
 }
 
-footer {
-    font-family: papyrus;
-    color: brown;
-    background-color: whitesmoke;
-    font-size: 100%;
+#introduction {
+    display: block;
+    padding-block: 5px;
+    padding-inline: 20px;
+    margin: auto;
+    width: 70%;
+    background-color: var(--leather);
+    font-family: Georgia, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
 }

@@ -14,6 +14,11 @@ header{
     font-family: Georgia, bold, serif;
 }
 
+main {
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
 section{
     background-color: var(--old-copper);
     font-family: Georgia, bold, serif;
@@ -26,8 +31,35 @@ aside{
 }
 
 footer{
-    background-color: var(--old-copper);
+    display: inline-block;
+    margin: auto;
+    width: 95%;
+    height: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+#footer-links ul li{
+    display: inline;
+    color: var(--cedar);  /* list element text color */
+    background-color: var(--double-spanish-white);
     font-family: Georgia, bold, serif;
+    font-size: 14px;
+}
+
+  #footer-links li a {
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+#footer-links a:hover{
+    background-color: var(--old-copper);
+}
+
+#validators{
+    display: inline;
+    text-align: center;
 }
 
 h1 {
@@ -52,7 +84,6 @@ h3 {
 p {
     background-color: var(--leather);
     font-family: serif;
-    font-size: 20px;
     color: var(--double-spanish-white);
 }
 
@@ -61,30 +92,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
-
 
 li {
     font-family: Georgia, serif;
 }
 
-
-li a {
-    display: block;
-    background-color: var(--double-spanish-white);
-    color: var(--old-copper);
-    padding: 5px 16px;
-    text-decoration: none;
-}
-
-
-li a:hover {
-    color: var(--double-spanish-white);
-}
-
-
-nav {
+nav{
     position: relative;
     display: inline-block;
     width: 95%;
@@ -94,15 +108,17 @@ nav {
     margin: auto;
     text-align: right;
     font-family: Georgia, bold, serif;
-    color: var(--cedar);
     font-size: 14px;
-
 }
 
-nav a:hover {
-
-    background-color: var(--old-copper);
+nav li a {
+    display:block;
+    color: var(--old-copper); /* color of link title */
+    background-color: var(--double-spanish-white); /* color of menu background*/
+    padding: 5px 16px;
+    text-decoration: none;
 }
+
 
 a {
     display: inline-block;

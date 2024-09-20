@@ -122,6 +122,10 @@ nav li a {
     text-decoration: none;
 }
 
+#nav-main a:hover {
+    color: var(--double-spanish-white);
+    background-color: var(--old-copper);
+}
 
 a {
     display: inline-block;

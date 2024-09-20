@@ -1,0 +1,147 @@
+/*CSS Dajabre Torain Home Page */
+head{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+body {
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+header{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+main {
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+section{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+
+}
+
+aside{
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+footer{
+    display: inline-block;
+    margin: auto;
+    width: 95%;
+    height: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+#footer-links ul li{
+    display: inline;
+    color: var(--cedar);  /* list element text color */
+    background-color: var(--double-spanish-white);
+    font-family: Georgia, bold, serif;
+    font-size: 16px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color:var(--leather)
+}
+
+#footer-links li a {
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+#footer-links a:hover{
+    background-color: var(--old-copper);
+}
+
+#validators{
+    display: inline;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+h3 {
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+p {
+    background-color: var(--leather);
+    font-family: serif;
+    color: var(--double-spanish-white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    font-family: Georgia, serif;
+}
+
+nav{
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    height: 15px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin: auto;
+    text-align: right;
+    font-family: Georgia, bold, serif;
+    font-size: 14px;
+}
+
+nav li a {
+    display:block;
+    color: var(--old-copper); /* color of link title */
+    background-color: var(--double-spanish-white); /* color of menu background*/
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+#nav-main a:hover {
+    color: var(--double-spanish-white);
+    background-color: var(--old-copper);
+}
+
+a {
+    display: inline-block;
+    margin: auto;
+}
+
+#contract {
+    display: inline-block;
+    width: 65%;
+    margin: auto;
+    
+    font-family: serif;
+    background-color: var(--double-spanish-white);
+}
+
+#contract p {
+    color: var(--old-copper);
+    text-align: center;
+}

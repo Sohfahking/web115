@@ -54,10 +54,15 @@ footer{
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    color: var(--cedar)
   }
 
 #footer-links a:hover{
     background-color: var(--old-copper);
+}
+
+#footer-links a:visited{
+    color: var(--leather);
 }
 
 #validators{
@@ -133,15 +138,9 @@ a {
 }
 
 #contract {
-    display: inline-block;
+    display: block;
     width: 65%;
     margin: auto;
-    
-    font-family: serif;
-    background-color: var(--double-spanish-white);
-}
-
-#contract p {
-    color: var(--old-copper);
     text-align: center;
+
 }

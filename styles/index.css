@@ -44,10 +44,13 @@ footer{
     color: var(--cedar);  /* list element text color */
     background-color: var(--double-spanish-white);
     font-family: Georgia, bold, serif;
-    font-size: 14px;
+    font-size: 16px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color:var(--leather)
 }
 
-  #footer-links li a {
+#footer-links li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;

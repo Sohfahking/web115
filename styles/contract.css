@@ -1,5 +1,5 @@
 /*CSS Dajabre Torain Home Page */
-head{
+head {
     background-color: var(--old-copper);
     font-family: Georgia, bold, serif;
 }
@@ -9,7 +9,7 @@ body {
     font-family: Georgia, bold, serif;
 }
 
-header{
+header {
     background-color: var(--old-copper);
     font-family: Georgia, bold, serif;
 }
@@ -19,18 +19,18 @@ main {
     font-family: Georgia, bold, serif;
 }
 
-section{
+section {
     background-color: var(--old-copper);
     font-family: Georgia, bold, serif;
 
 }
 
-aside{
+aside {
     background-color: var(--old-copper);
     font-family: Georgia, bold, serif;
 }
 
-footer{
+footer {
     display: inline-block;
     margin: auto;
     width: 95%;
@@ -65,10 +65,6 @@ footer{
     color: var(--leather);
 }
 
-#validators{
-    display: inline;
-    text-align: center;
-}
 
 h1 {
     display: block;
@@ -106,7 +102,7 @@ li {
     font-family: Georgia, serif;
 }
 
-nav{
+header nav{
     position: relative;
     display: inline-block;
     width: 95%;
@@ -116,10 +112,11 @@ nav{
     margin: auto;
     text-align: right;
     font-family: Georgia, bold, serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
-nav li a {
+header nav li a {
+    text-align: right;
     display:block;
     color: var(--old-copper); /* color of link title */
     background-color: var(--double-spanish-white); /* color of menu background*/
@@ -127,7 +124,7 @@ nav li a {
     text-decoration: none;
 }
 
-#nav-main a:hover {
+header nav a:hover {
     color: var(--double-spanish-white);
     background-color: var(--old-copper);
 }

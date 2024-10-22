@@ -14,6 +14,38 @@ header{
     font-family: Georgia, bold, serif;
 }
 
+header nav{
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    height: 15px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin: auto;
+    text-align: right;
+    font-family: Georgia, bold, serif;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-align: right;
+    display:block;
+    color: var(--old-copper); /* color of link title */
+    background-color: var(--double-spanish-white); /* color of menu background*/
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: var(--double-spanish-white);
+    background-color: var(--old-copper);
+}
+
+a {
+    display: inline-block;
+    margin: auto;
+}
+
 main {
     background-color: var(--old-copper);
     font-family: Georgia, bold, serif;
@@ -66,9 +98,10 @@ footer{
     color: var(--leather);
 }
 
-#validators{
-    display: inline;
-    text-align: center;
+footer p {
+    display: inline-block;
+    width: 95%;
+    padding: 14px;
 }
 
 h1 {
@@ -94,6 +127,7 @@ p {
     background-color: var(--leather);
     font-family: serif;
     color: var(--double-spanish-white);
+    font-size: 18px;
 }
 
 ul {
@@ -107,36 +141,7 @@ li {
     font-family: Georgia, serif;
 }
 
-nav{
-    position: relative;
-    display: inline-block;
-    width: 95%;
-    height: 15px;
-    padding-block: 10px;
-    padding-inline: 20px;
-    margin: auto;
-    text-align: right;
-    font-family: Georgia, bold, serif;
-    font-size: 14px;
-}
 
-nav li a {
-    display:block;
-    color: var(--old-copper); /* color of link title */
-    background-color: var(--double-spanish-white); /* color of menu background*/
-    padding: 5px 16px;
-    text-decoration: none;
-}
-
-#nav-main a:hover {
-    color: var(--double-spanish-white);
-    background-color: var(--old-copper);
-}
-
-a {
-    display: inline-block;
-    margin: auto;
-}
 
 #introduction {
     display: block;
@@ -146,6 +151,8 @@ a {
     width: 70%;
     background-color: var(--leather);
     font-family: Georgia, serif;
+    font-size: 16px;
     color: var(--double-spanish-white);
-    text-align: center;
+    text-align: left;
+    
 }

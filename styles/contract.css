@@ -1,152 +1,137 @@
-/*CSS Dajabre Torain Home Page */
-head {
-    background-color: var(--old-copper);
-    font-family: Georgia, bold, serif;
-}
-
-body {
-    background-color: var(--old-copper);
-    font-family: Georgia, bold, serif;
-}
-
-header {
-    background-color: var(--old-copper);
-    font-family: Georgia, bold, serif;
-}
-
-header nav{
-    position: relative;
-    display: inline-block;
-    width: 95%;
-    height: 15px;
-    padding-block: 10px;
-    padding-inline: 20px;
-    margin: auto;
-    text-align: right;
-    font-family: Georgia, bold, serif;
-    font-size: 18px;
-}
-
-header nav li a {
-    text-align: right;
-    display:block;
-    color: var(--old-copper); /* color of link title */
-    background-color: var(--double-spanish-white); /* color of menu background*/
-    padding: 5px 16px;
-    text-decoration: none;
-}
-
-header nav a:hover {
-    color: var(--double-spanish-white);
-    background-color: var(--old-copper);
-}
-
-main {
-    font-family: Georgia, bold, serif;
-}
-
- main p{ 
-    display: block;
-    width: 65%;
-    margin: auto;
-    text-align: left;
-    padding: 12px;
-}
-
- 
-section {
-    background-color: var(--old-copper);
-    font-family: Georgia, bold, serif;
-
-}
-
-aside {
-    background-color: var(--old-copper);
-    font-family: Georgia, bold, serif;
-}
-
-footer{
-    display: inline-block;
-    margin: auto;
-    width: 95%;
-    height: 20px;
-    text-align: center;
-    font-family: Georgia, serif;
-}
-
-footer ul li{
-    display: inline;
-    color: var(--cedar);  /* list element text color */
-    background-color: var(--double-spanish-white);
-    font-family: Georgia, bold, serif;
-    font-size: 16px;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color:var(--leather)
-}
-
-footer li a {
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    color: var(--cedar)
+/* Global Styles */
+:root {
+    /* Neutral Palette */
+    --cod-gray: #100f0f;
+    --double-spanish-white: #ebe3c3;
+    --granite-green: #908c7e;
+    --pablo: #757464;
+    --pablo-brown: #746c5e;
+    --dusty-gray: #9c9c9c;
+    --nomad: #b6b4a5;
+    --seashell: #f1f1f1;
+    --napa: #aca494;
+    --thistle-green: #ccc4ab;
+  
+    /* Brown Palette */
+    --old-copper: #7c5434;
+    --stark-white: #e7debf;
+    --sandal: #a99273;
+    --heathered-gray: #baad93;
+    --leather: #9c7c5c;
+    --silver-chalice: #a0a0a0;
+    --shadow: #8b7256;
+    --dove-gray: #737373;
+    --cedar: #3c2414;
   }
-
-footer a:hover{
+  
+  /* General Styles */
+  body {
     background-color: var(--old-copper);
-}
-
-
-footer a:visited{
-    color: var(--leather);
-}
-
-footer p {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 95%;
-    padding: 14px;
-    background-color: var(--leather);
-    font-size: 16px;
-}
-
-
-h1 {
-    display: block;
-    font-family: Georgia, bold, serif;
+    font-family: Georgia, serif;
     color: var(--double-spanish-white);
-    text-align: center;
-}
-
-h2 {
-    font-family: Georgia, bold, serif;
-    color: var(--double-spanish-white);
-    text-align: center;
-}
-
-h3 {
-    font-family: Georgia, bold, serif;
-    color: var(--double-spanish-white);
-    text-align: center;
-}
-
-p {
-    font-family: serif;
-    color: var(--double-spanish-white);
-}
-
-ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
+  }
+  
+  h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: var(--double-spanish-white);
+  }
+  
+  h2 {
+    color: var(--double-spanish-white);
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--old-copper);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    padding: 10px;
+  }
+  
+  header nav a {
+    color: var(--old-copper);
+    background-color: var(--cedar);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    background-color: var(--old-copper);
+    color: var(--double-spanish-white);
+  }
+  
+  /* Main */
+  main {
+    text-align: left;
+    padding: 20px;
+    background-color: var(--shadow);
+  }
+  
+  p {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  main p{
+    font-size: 18px;
+    text-align: left;
+  }
 
-li {
-    font-family: Georgia, serif;
-}
-
-a {
-    display: inline-block;
-    margin: auto;
-}
+  /* Footer */
+  footer {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--cedar);
+  }
+  
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer nav li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  footer nav a {
+    text-decoration: none;
+    color: var(--cedar);
+    padding: 10px;
+  }
+  
+  footer nav a:hover {
+    background-color: var(--old-copper);
+    color: var(--double-spanish-white);
+  }
+  
+  /* Remove visited link styling */
+  a:visited {
+    color: inherit;
+  }
+  

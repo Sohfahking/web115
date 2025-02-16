@@ -71,7 +71,7 @@ header nav li {
 }
 
 header nav a {
-  color: var(--old-copper);
+  color: var(--double-spanish-white); 
   background-color: var(--cedar);
   padding: 8px 16px;
   text-decoration: none;
@@ -80,7 +80,7 @@ header nav a {
 }
 
 header nav a:hover {
-  background-color: var(--old-copper);
+  background-color: var(--leather);
   color: var(--double-spanish-white);
 }
 
@@ -130,7 +130,6 @@ footer nav a:hover {
   color: var(--double-spanish-white);
 }
 
-/* Remove visited link styling */
-a:visited {
-  color: inherit;
+footer nav a:visited {
+  color: var(--double-spanish-white); 
 }

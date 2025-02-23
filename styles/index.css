@@ -103,24 +103,13 @@ footer p {
     font-size: 16px;
 }
 
-h1 {
-    display: block;
+h1, h2, h3  {
+    
     font-family: Georgia, bold, serif;
     color: var(--double-spanish-white);
     text-align: center;
 }
 
-h2 {
-    font-family: Georgia, bold, serif;
-    color: var(--double-spanish-white);
-    text-align: center;
-}
-
-h3 {
-    font-family: Georgia, bold, serif;
-    color: var(--double-spanish-white);
-    text-align: center;
-}
 
 p {
     background-color: var(--leather);

@@ -36,14 +36,8 @@ body {
 h1, h2, h3 {
   font-family: Arial, sans-serif;
   text-align: center;
-}
+  color: var(--double-spanish-white);
 
-h1 {
-  color: var(--double-spanish-white);
-}
-  
-h2 {
-  color: var(--double-spanish-white);
 }
   
 /* Header */

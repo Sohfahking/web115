@@ -36,15 +36,9 @@ body {
 h1, h2, h3 {
   font-family: Arial, sans-serif;
   text-align: center;
-}
-
-h1 {
   color: var(--double-spanish-white);
 }
 
-h2 {
-  color: var(--double-spanish-white);
-}
 
 /* Header */
 header {
@@ -117,6 +111,7 @@ footer nav ul {
 footer nav li {
   display: inline;
   margin: 0 5px;
+  color: var(--double-spanish-white);
 }
 
 footer nav a {

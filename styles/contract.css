@@ -81,7 +81,6 @@ header nav a:hover {
 main {
   text-align: left;
   padding: 20px;
-  background-color: var(--shadow);
 }
   
 p {

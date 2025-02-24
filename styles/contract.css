@@ -27,8 +27,8 @@
 /* General Styles */
 html, body {
   height: 100%;
-  margin: 0 auto;
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   font-family: Georgia, serif;
   color: var(--double-spanish-white);
@@ -60,8 +60,6 @@ header nav {
   
 header nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
 }
   
@@ -89,24 +87,26 @@ main {
   text-align: left;
   background-color: var(--old-copper);
   flex: 1;
+  margin: 0 auto;
 }
-  
-p {
-  padding: 10px;
-  border-radius: 5px;
-}
-  
+
 main p{
   font-size: 18px;
   text-align: left;
 }
 
+
+p {
+  padding: 10px;
+  border-radius: 5px;
+}
+  
 /* Footer */
 footer {
   font-size: 16px;
   text-align: center;
   padding: 5px;
-  color: var(--cod-gray);
+  color: var(--cedar);
   background-color: var(--double-spanish-white);
 }
   

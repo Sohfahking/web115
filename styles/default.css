@@ -49,8 +49,8 @@ h2, h3 {
   
 /* Header */
 header {
+  width: 100%;
   background-color: var(--double-spanish-white);
-  padding: 10px;
   text-align: center;
 }
   
@@ -112,7 +112,7 @@ main p{
 footer {
   font-size: 16px;
   text-align: center;
-  padding: 5px;
+  width: 100%;
   color: var(--cedar);
   background-color: var(--double-spanish-white);
 }

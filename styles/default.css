@@ -106,17 +106,26 @@ p {
 footer {
   font-size: 16px;
   text-align: center;
+<<<<<<< Updated upstream
   width: 100%;
+=======
+  padding: 5px;
+>>>>>>> Stashed changes
   color: var(--cedar);
   background-color: var(--double-spanish-white);
 }
 
+<<<<<<< Updated upstream
 footer p {
   font-size: 16px;
   color: var(--cedar);
   padding: 10px;
   margin: 10px auto;
   text-align: center;
+=======
+footer p{
+  font-size: 16px;
+>>>>>>> Stashed changes
 }
   
 footer nav ul {
@@ -125,12 +134,14 @@ footer nav ul {
 }
   
 footer nav li {
+  font-size: 18px;
   color: var(--cedar);
   display: inline;
   margin: 0 5px;
 }
   
 footer nav a {
+  font-size: 16px;
   text-decoration: none;
   padding: 10px;
   color: var(--cedar);

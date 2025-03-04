@@ -133,9 +133,13 @@ footer p {
 footer nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
   
 footer nav li {
+  font-size: 18px;
   color: var(--cedar);
   display: inline;
   margin: 0 5px;

@@ -104,7 +104,7 @@ main p{
   text-align: left;
   width: 80%;
   margin: 0 auto;
-  color: var(--cedar);
+  color: var(--double-spanish-white);
 }
 
 /* Footer */
@@ -120,7 +120,7 @@ footer p {
   font-size: 16px;
   color: var(--cedar);
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   text-align: center;
 }
   

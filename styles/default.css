@@ -86,7 +86,6 @@ header nav a:hover {
   
 /* Main */
 main {
-  padding: 20px;
   text-align: left;
   background-color: var(--old-copper);
   flex: 1;
@@ -96,7 +95,6 @@ main {
 }
   
 p {
-  padding: 10px;
   border-radius: 5px;
   width: 80%;
   margin: 0 auto;

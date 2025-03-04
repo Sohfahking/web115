@@ -98,6 +98,7 @@ main p{
   font-size: 18px;
   text-align: left;
   width: 80%;
+  color: var(--double-spanish-white)
 }
 
 main li{
@@ -125,7 +126,7 @@ footer p {
   font-size: 16px;
   color: var(--cedar);
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   text-align: center;
 }
     

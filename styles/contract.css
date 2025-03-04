@@ -120,7 +120,14 @@ footer {
   color: var(--cedar);
   background-color: var(--double-spanish-white);
 }
-  
+
+footer p {
+  font-size: 16px;
+  color: var(--cedar);
+  padding: 10px;
+  margin: 10px;
+}
+    
 footer nav ul {
   list-style: none;
   padding: 0;

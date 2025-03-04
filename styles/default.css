@@ -35,7 +35,13 @@ html, body {
   color: var(--double-spanish-white);
 }
   
-h1, h2, h3 {
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: var(--cedar);
+}
+
+h2, h3 {
   font-family: Arial, sans-serif;
   text-align: center;
   color: var(--double-spanish-white);

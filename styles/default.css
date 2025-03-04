@@ -78,19 +78,19 @@ main {
   width: 100%;
   margin: 0 auto;
 }
-  
-p {
-  border-radius: 5px;
-  width: 80%;
-  margin: 0 auto;
-}
-  
+   
 main p{
   font-size: 18px;
   text-align: left;
   width: 80%;
   margin: 0 auto;
   color: var(--double-spanish-white);
+}
+
+p {
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* Footer */

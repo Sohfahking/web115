@@ -83,7 +83,7 @@ main p{
   font-size: 18px;
   text-align: left;
   width: 80%;
-  margin: 0 auto;
+  margin: 5px auto;
   color: var(--double-spanish-white);
 }
 
@@ -106,31 +106,25 @@ p {
 footer {
   font-size: 16px;
   text-align: center;
-<<<<<<< Updated upstream
   width: 100%;
-=======
-  padding: 5px;
->>>>>>> Stashed changes
   color: var(--cedar);
   background-color: var(--double-spanish-white);
 }
 
-<<<<<<< Updated upstream
 footer p {
   font-size: 16px;
   color: var(--cedar);
   padding: 10px;
   margin: 10px auto;
   text-align: center;
-=======
-footer p{
-  font-size: 16px;
->>>>>>> Stashed changes
 }
-  
+    
 footer nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
   
 footer nav li {
@@ -141,7 +135,6 @@ footer nav li {
 }
   
 footer nav a {
-  font-size: 16px;
   text-decoration: none;
   padding: 10px;
   color: var(--cedar);
@@ -154,4 +147,3 @@ footer nav a:hover {
 footer nav a:visited {
   color: var(--cedar); 
 }
-  

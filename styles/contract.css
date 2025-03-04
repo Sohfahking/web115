@@ -126,6 +126,7 @@ footer p {
   color: var(--cedar);
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }
     
 footer nav ul {

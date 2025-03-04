@@ -102,13 +102,11 @@ main p{
 
 main li{
   font-size: 18px;
-  padding: 5px;
   width: 80%;
   margin: 0 auto;
 }
 
 p {
-  padding: 10px;
   border-radius: 5px;
   width: 80%;
   margin: 0 auto;

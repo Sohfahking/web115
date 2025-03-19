@@ -99,7 +99,6 @@ p {
   text-align: center;
   margin: 5px auto;
   font-weight: bold;
-  border-radius: 5px;
 }
 
 /* Footer */
@@ -147,3 +146,4 @@ footer nav a:hover {
 footer nav a:visited {
   color: var(--cedar); 
 }
+  

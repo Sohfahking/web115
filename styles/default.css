@@ -59,6 +59,7 @@ header nav li {
 }
   
 header nav a {
+  font-size: 18px;
   color: var(--cedar);
   background-color: var(--double-spanish-white);
   padding: 8px 16px;
@@ -86,11 +87,21 @@ main {
 }
    
 main p{
+  line-height: 25px;
   font-size: 18px;
   text-align: left;
   width: 80%;
   margin: 5px auto;
   color: var(--double-spanish-white);
+}
+
+main figure, figcaption{
+  margin: 5px auto;
+  padding: 5px;
+  text-align: center;
+  width: 75%;
+  color: var(--double-spanish-white);
+  line-height: 18px;
 }
 
 p {

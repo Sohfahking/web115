@@ -115,11 +115,18 @@
     line-height: 25px;
     line-break: auto;
   }
+
+  main img{
+    width: 350px;
+    height: 350px;
+  }
+  
   
   main figure, figcaption{
     margin: 5px auto;
     text-align: center;
-    width: 75%;
+    color: var(--double-spanish-white);
+    line-height: 20px;
   }
   
   p {
@@ -140,8 +147,8 @@
   footer p {
     font-size: 16px;
     color: var(--cedar);
-    padding: 10px;
-    margin: 10px auto;
+    line-height: 30px;
+    margin: 5px auto;
     text-align: center;
   }
       

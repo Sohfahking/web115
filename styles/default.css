@@ -34,18 +34,40 @@ h2, h3 {
   
 /* Header */
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
   width: 100%;
   background-color: var(--double-spanish-white);
-  text-align: center;
+  margin: 0 auto;
+
 }
 
+/* Logo */
+header a img {
+  position: absolute;
+  left: 5px; /* Adjust as needed */
+  top: 5px;
+  width: 160px;
+  height: 150px;
+}
+
+header h1 {
+  margin-left: 25px; /* Moves the title slightly right */
+}
+
+/* Navigation */
 header nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap; /* Allows buttons to wrap instead of being hidden */
+  width: 100%;
+  padding-left: 75px; /* Moves nav away from the logo */
 }
-  
+
 header nav ul {
+  margin: 20px 35px;
   list-style: none;
   padding: 0;
   display: flex;
@@ -53,11 +75,11 @@ header nav ul {
   justify-content: center;
   gap: 10px;
 }
-  
+
 header nav li {
   padding: 10px;
 }
-  
+
 header nav a {
   font-size: 18px;
   color: var(--cedar);
@@ -72,11 +94,17 @@ header nav a {
   border-radius: 5px;
 }
 
-header nav a:hover {
-  background-color: var(--sandal);
-  color: var(--double-spanish-white);
+@media  (max-width: 800px) {
+  header a img {
+    position: static; /* Moves logo into normal flow */
+    margin-bottom: 10px; /* Adds spacing */
+  }
+
+  header nav {
+    padding-left: 0; /* Resets nav positioning */
+  }
 }
-  
+ 
 /* Main */
 main {
   text-align: left;
@@ -91,17 +119,21 @@ main p{
   font-size: 18px;
   text-align: left;
   width: 80%;
-  margin: 5px auto;
+  margin: 10px auto;
   color: var(--double-spanish-white);
 }
 
+main img{
+  width: 350px;
+  height: 350px;
+}
+
+
 main figure, figcaption{
   margin: 5px auto;
-  padding: 5px;
   text-align: center;
-  width: 75%;
   color: var(--double-spanish-white);
-  line-height: 18px;
+  line-height: 20px;
 }
 
 p {
@@ -135,8 +167,8 @@ footer {
 footer p {
   font-size: 16px;
   color: var(--cedar);
-  padding: 10px;
-  margin: 10px auto;
+  line-height: 30px;
+  margin: 5px auto;
   text-align: center;
 }
     
@@ -165,7 +197,6 @@ footer nav a {
   padding: 5px;
   color: var(--cedar);
 }
-
 
 footer nav a:hover {
   background-color: var(--sandal);

@@ -41,29 +41,23 @@ header {
   width: 100%;
   background-color: var(--double-spanish-white);
   margin: 0 auto;
-
 }
 
 /* Logo */
 header a img {
   position: absolute;
-  left: 5px; /* Adjust as needed */
+  left: 5px; 
   top: 5px;
   width: 160px;
   height: 150px;
-}
-
-header h1 {
-  margin-left: 25px; /* Moves the title slightly right */
 }
 
 /* Navigation */
 header nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Allows buttons to wrap instead of being hidden */
-  width: 100%;
-  padding-left: 75px; /* Moves nav away from the logo */
+  flex-wrap: wrap; 
+  padding-left: 75px; 
 }
 
 header nav ul {
@@ -75,11 +69,9 @@ header nav ul {
   justify-content: center;
   gap: 10px;
 }
-
 header nav li {
   padding: 10px;
 }
-
 header nav a {
   font-size: 18px;
   color: var(--cedar);
@@ -96,15 +88,14 @@ header nav a {
 
 @media  (max-width: 800px) {
   header a img {
-    position: static; /* Moves logo into normal flow */
-    margin-bottom: 10px; /* Adds spacing */
+    position: static; 
+    margin-bottom: 10px; 
   }
-
   header nav {
-    padding-left: 0; /* Resets nav positioning */
+    padding-left: 0; 
   }
 }
- 
+
 /* Main */
 main {
   text-align: left;

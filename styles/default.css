@@ -44,11 +44,11 @@ header {
 }
 
 /* Logo */
-header a img {
+header img {
   position: absolute;
   left: 5px; 
   top: 5px;
-  width: 160px;
+  width: 150px;
   height: 150px;
 }
 
@@ -96,6 +96,10 @@ header nav a {
   }
 }
 
+header nav a:hover {
+  background-color: var(--sandal);
+  color: var(--double-spanish-white);
+}
 /* Main */
 main {
   text-align: left;

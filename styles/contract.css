@@ -49,18 +49,34 @@ h2, h3 {
   
 /* Header */
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
   width: 100%;
   background-color: var(--double-spanish-white);
-  text-align: center;
+  margin: 0 auto;
 }
 
+/* Logo */
+header a img {
+  position: absolute;
+  left: 5px; 
+  top: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+/* Navigation */
 header nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap; 
+  padding-left: 75px; 
 }
-  
+
 header nav ul {
+  margin: 20px 35px;
   list-style: none;
   padding: 0;
   display: flex;
@@ -68,11 +84,9 @@ header nav ul {
   justify-content: center;
   gap: 10px;
 }
-  
 header nav li {
   padding: 10px;
 }
-  
 header nav a {
   font-size: 18px;
   color: var(--cedar);
@@ -86,7 +100,17 @@ header nav a {
   border-color: var(--sandal);
   border-radius: 5px;
 }
-  
+
+@media  (max-width: 800px) {
+  header a img {
+    position: static; 
+    margin-bottom: 10px; 
+  }
+  header nav {
+    padding-left: 0; 
+  }
+}
+
 header nav a:hover {
   background-color: var(--sandal);
   color: var(--double-spanish-white);

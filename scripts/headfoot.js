@@ -1,4 +1,4 @@
-// Function to load external HTML files
+// Function to load external HTML
 function loadComponent(elementId, filePath) {
     fetch(filePath)
         .then((response) => {

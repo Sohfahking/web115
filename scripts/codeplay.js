@@ -5,12 +5,11 @@ M03 - Console/Code Play
 */
 
 /* Console, Alerts, Variables and Prompts */
-
 console.log('Start | M03 - Console/Code Play');
 // Output: Start | M03 - Console/Code Play
 
-let fun = prompt("Having fun with JavaScript? Type, 'Yes I am!'.");
-//Output: (An alert box with text) Having fun with JavaScript?
+let fun = prompt("Having fun with JavaScript? Type, 'Yes I am!'");
+//Output: (An alert box with text) "Having fun with JavaScript? Type, 'Yes I am!'
 
 window.alert(fun);
 // Output: (An alert box with text) Yes I am!
@@ -91,7 +90,7 @@ alert('The number of characters in that sentence is ' + text.length + '.');
 let weather = 'Today it is going to ';
 weather += 'rain.';
 alert(weather);
-// Output: Today is going to snow.
+// Output: Today is going to rain.
 
 /* Dates */
 var today = new Date();
@@ -135,8 +134,10 @@ alert(letters);
 // Output: ["J", "a", "v", "a", "s", "c", "r", "i", "p", "t", "i", "s", "f", "u", "n", "."]
 
 sentence = prompt('You try! Enter something: ');
+//Output: You try! Enter something:
 letters = sentence.split('');
 alert(letters);
+// Output: {letters} array
 
 //* Array to String */
 let rainbow = prompt('What are the first 3 colors of the rainbow?');

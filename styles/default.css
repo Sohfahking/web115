@@ -138,6 +138,59 @@ p {
   margin: 0 auto;
 }
 
+/* Style for the main list */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li.part {
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  background-color:var(--double-spanish-white);
+  width: 75%;
+  height: 50%;
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid var(--cod-gray);
+  border-radius: 4px;
+}
+
+li.part:hover {
+  background-color: var(--sandal);
+}
+
+/* Style for the sublist, initially hidden */
+.content {
+  display: none;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.content > li {
+  list-style-type: disc; 
+  margin-left: 20px; 
+}
+
+/* Style for the checkmark (finished indicator) */
+.finished {
+  color: forestgreen;
+  background-color: #ebe3c3;
+  margin-left: 10px; 
+  font-size: 16px; 
+  padding: 2px;
+  border-color: var(--cod-gray);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+main ul li {
+  margin: 5px 0;
+}
+
+/* Brand color boxes */
 .color-box {
   width: 80%;
   height: 50px;

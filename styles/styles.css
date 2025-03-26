@@ -1,51 +1,53 @@
 /* Global Styles */
 :root {
-    /* Neutral Palette */
-    --cod-gray: #100f0f;
-    --double-spanish-white: #ebe3c3;
-    --granite-green: #908c7e;
-    --pablo: #757464;
-    --pablo-brown: #746c5e;
-    --dusty-gray: #9c9c9c;
-    --nomad: #b6b4a5;
-    --seashell: #f1f1f1;
-    --napa: #aca494;
-    --thistle-green: #ccc4ab;
-    
-    /* Brown Palette */
-    --old-copper: #7c5434;
-    --stark-white: #e7debf;
-    --sandal: #a99273;
-    --heathered-gray: #baad93;
-    --leather: #9c7c5c;
-    --silver-chalice: #a0a0a0;
-    --shadow: #8b7256;
-    --dove-gray: #737373;
-    --cedar: #3c2414;
-  }
-  
-  /* General Styles */
-  html, body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    font-family: Georgia, serif;
-    color: var(--double-spanish-white);
-  }
-    
-  h1 {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: var(--cedar);
-  }
-  
-  h2, h3 {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: var(--double-spanish-white);
-  }
+  /* Neutral Palette */
+  --cod-gray: #100f0f;
+  --double-spanish-white: #ebe3c3;
+  --granite-green: #908c7e;
+  --pablo: #757464;
+  --pablo-brown: #746c5e;
+  --dusty-gray: #9c9c9c;
+  --nomad: #b6b4a5;
+  --seashell: #f1f1f1;
+  --napa: #aca494;
+  --thistle-green: #ccc4ab;
+
+  /* Brown Palette */
+  --old-copper: #7c5434;
+  --stark-white: #e7debf;
+  --sandal: #a99273;
+  --heathered-gray: #baad93;
+  --leather: #9c7c5c;
+  --silver-chalice: #a0a0a0;
+  --shadow: #8b7256;
+  --dove-gray: #737373;
+  --cedar: #3c2414;
+}
+
+/* General Styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: Georgia, serif;
+  color: var(--double-spanish-white);
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: var(--cedar);
+}
+
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: var(--double-spanish-white);
+}
 
 /* Header */
 header {
@@ -61,7 +63,7 @@ header {
 /* Logo */
 header a img {
   position: absolute;
-  left: 5px; 
+  left: 5px;
   top: 5px;
   width: 150px;
   height: 150px;
@@ -71,8 +73,8 @@ header a img {
 header nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
-  padding-left: 75px; 
+  flex-wrap: wrap;
+  padding-left: 75px;
 }
 
 header nav ul {
@@ -84,9 +86,11 @@ header nav ul {
   justify-content: center;
   gap: 10px;
 }
+
 header nav li {
   padding: 10px;
 }
+
 header nav a {
   font-size: 18px;
   color: var(--cedar);
@@ -101,13 +105,14 @@ header nav a {
   border-radius: 5px;
 }
 
-@media  (max-width: 800px) {
+@media (max-width: 800px) {
   header a img {
-    position: static; 
-    margin-bottom: 10px; 
+    position: static;
+    margin-bottom: 10px;
   }
+
   header nav {
-    padding-left: 0; 
+    padding-left: 0;
   }
 }
 
@@ -115,100 +120,103 @@ header nav a:hover {
   background-color: var(--sandal);
   color: var(--double-spanish-white);
 }
-    
-  /* Main */
-  main {
-    text-align: left;
-    background-color: var(--old-copper);
-    flex: 1;
-    margin: 0 auto;
-    width: 100%;
-  }
-  
-  main p{
-    font-size: 18px;
-    text-align: left;
-    width: 80%;
-    color: var(--double-spanish-white)
-  }
-  
-  main li{
-    font-size: 18px;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 25px;
-    line-break: auto;
-  }
 
-  main img{
+/* Main */
+main {
+  text-align: left;
+  background-color: var(--old-copper);
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+}
+
+main p {
+  font-size: 18px;
+  text-align: left;
+  width: 80%;
+  color: var(--double-spanish-white)
+}
+
+main li {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 25px;
+  line-break: auto;
+}
+
+main img {
   width: 350px;
   height: 350px;
 }
 
-  
-  main figure, figcaption{
-    margin: 5px auto;
-    text-align: center;
-    color: var(--double-spanish-white);
-    line-height: 20px;
-  }
-  
-  p {
-    border-radius: 5px;
-    width: 80%;
-    margin: 0 auto;
-  }
-    
-  /* Footer */
-  footer {
-    font-size: 16px;
-    text-align: center;
-    width: 100%;
-    color: var(--cedar);
-    background-color: var(--double-spanish-white);
-  }
-  
-  footer p {
-    font-size: 16px;
-    color: var(--cedar);
-    line-height: 30px;
-    margin: 5px auto;
-    text-align: center;
-  }
-      
-  footer nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-    
-  footer nav li {
-    font-size: 18px;
-    color: var(--cedar);
-    display: inline;
-    margin: 0 5px;
-  }
-    
-  footer nav a {
-    border-style: solid;
-    border-width: 2px;
-    border-color: var(--sandal);
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 5px;
-    color: var(--cedar);
-  }
-  
-  
-  footer nav a:hover {
-    background-color: var(--sandal);
-  }
-  
-  footer nav a:visited {
-    color: var(--cedar); 
-  }
-    
-  
+
+main figure,
+figcaption {
+  margin: 5px auto;
+  text-align: center;
+  color: var(--double-spanish-white);
+  line-height: 20px;
+}
+
+p {
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+main a {
+  color: var(--double-spanish-white);
+}
+
+/* Footer */
+footer {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  color: var(--cedar);
+  background-color: var(--double-spanish-white);
+}
+
+footer p {
+  font-size: 16px;
+  color: var(--cedar);
+  line-height: 30px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer nav li {
+  font-size: 18px;
+  color: var(--cedar);
+  display: inline;
+  margin: 0 5px;
+}
+
+footer nav a {
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--sandal);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  color: var(--cedar);
+}
+
+
+footer nav a:hover {
+  background-color: var(--sandal);
+}
+
+footer nav a:visited {
+  color: var(--cedar);
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Index/Home">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Dajabre Torain">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made By Dice | Course Contract</title>
+
+  <!--  Link to CSS file(s) -->
+  <link rel="stylesheet" type="text/css" href="styles/default.css">
+  
+  <!-- JavaScript for dynamic inclusion -->
+  <script src="scripts/headfoot.js"></script>
+  
+  <!-- Acumulus Validator -->
+  <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Dynamic Header -->
+  <header id="header-dynamic"></header> 
+  
+  <main>
+    <h2>JADS Outline</h2>
+    <p>I, Dajabre Torain, intend to finish the five courses in the freeCodeCamp JS Algorithms and
+         Data Structures Certification over the next 6 weeks according to the following general schedule:</p>
+         <ul>
+            <li class="part" onclick="toggleContent('part1')">Part 1: Due by March 28th
+                <span class="finished">Done</span>
+                <ul id="part1" class="content">
+                    <li>Learn Introductory JavaScript by Building a Pyramid Generator</li>
+                    <li>Review JavaScript Fundamentals by Building a Gradebook App</li>
+                    <li>Learn Basic JavaScript by Building a Role Playing Game</li>
+                    <li>Learn Basic Debugging by Building a Random Background Color Changer</li>
+                </ul>
+            </li>
+            
+            <li class="part" onclick="toggleContent('part2')">Part 2: Due by April 2nd
+                <ul id="part2" class="content">
+                    <li>Learn Form Validation by Building a Calorie Counter</li>
+                    <li>Review DOM Manipulation by Building a Rock, Paper, Scissors Game</li>
+                    <li>Learn Basic String and Array Methods by Building a Music Player</li>
+                    <li>Certification Project: Build a Palindrome Checker Project</li>
+                </ul>
+            </li>
+            
+            <li class="part" onclick="toggleContent('part3')">Part 3: Due by April 6th
+                <ul id="part3" class="content">
+                    <li>Learn the Data Object by Building a Date Formatter</li>
+                    <li>Learn Modern JavaScript Methods by Building Football Team Cards</li>
+                    <li>Learn localStorage by Building a Todo App</li>
+                    <li>Learn Recursion by Building a Decimal to Binary Converter</li>
+                    <li>Certification Project: Build a Roman Numeral Converter Project</li>
+                </ul>
+            </li>
+            
+            <li class="part" onclick="toggleContent('part4')">Part 4: Due by April 10th
+                <ul id="part4" class="content">
+                    <li>Learn Regular Expressions by Building a Spam Filter</li>
+                    <li>Learn Basic Algorithmic Thinking by Building a Number Sorter</li>
+                    <li>Learn Advanced Array Methods by Building a Statistics Calculator</li>
+                    <li>Learn Functional Programming by Building a Spreadsheet</li>
+                    <li>Certification Project: Build a Telephone Number Validator Project</li>
+                </ul>
+            </li>
+            
+            <li class="part" onclick="toggleContent('part5')">Part 5: Due by April 15th
+                <ul id="part5" class="content">
+                    <li>Learn Basic OOP by Building a Shopping Cart</li>
+                    <li>Learn Intermediate OOP by Building a Platformer Game</li>
+                    <li>Review Algorithmic Thinking by Building a Dice Game</li>
+                    <li>Certification Project: Build a Cash Register Project</li>
+                </ul>
+            </li>
+            
+            <li class="part" onclick="toggleContent('part6')">Part 6: Due by April 20th
+                <ul id="part6" class="content">
+                    <li>Learn Fetch and Promises by Building an fCC Authors Page</li>
+                    <li>Learn Asynchronous Programming by Building an fCC Forum Leaderboard</li>
+                    <li>Certification: Build a Pokémon Search App Project</li>
+                </ul>
+            </li>
+            </ul>
+            
+            <p>I acknowledge that this is a single assignment within the course, and not broken out into 
+                parts like the previous certification, and will take responsibility for pacing myself.</p>
+                
+                <p><em>Dajabre Torain, 03/25/2025</em></p>
+
+    </main>
+
+    <!-- Dynamic Footer -->
+    <footer id="footer-dynamic"></footer>
+
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+  </body>
+  </html>
+  

@@ -11,7 +11,7 @@
   --seashell: #f1f1f1;
   --napa: #aca494;
   --thistle-green: #ccc4ab;
-  
+
   /* Brown Palette */
   --old-copper: #7c5434;
   --stark-white: #e7debf;
@@ -25,7 +25,8 @@
 }
 
 /* General Styles */
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   display: flex;
@@ -34,19 +35,20 @@ html, body {
   font-family: Georgia, serif;
   color: var(--double-spanish-white);
 }
-  
+
 h1 {
   font-family: Arial, sans-serif;
   text-align: center;
   color: var(--cedar);
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: Arial, sans-serif;
   text-align: center;
   color: var(--double-spanish-white);
 }
-  
+
 /* Header */
 header {
   display: flex;
@@ -61,7 +63,7 @@ header {
 /* Logo */
 header a img {
   position: absolute;
-  left: 5px; 
+  left: 5px;
   top: 5px;
   width: 150px;
   height: 150px;
@@ -71,8 +73,8 @@ header a img {
 header nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; 
-  padding-left: 75px; 
+  flex-wrap: wrap;
+  padding-left: 75px;
 }
 
 header nav ul {
@@ -84,9 +86,11 @@ header nav ul {
   justify-content: center;
   gap: 10px;
 }
+
 header nav li {
   padding: 10px;
 }
+
 header nav a {
   font-size: 18px;
   color: var(--cedar);
@@ -101,13 +105,14 @@ header nav a {
   border-radius: 5px;
 }
 
-@media  (max-width: 800px) {
+@media (max-width: 800px) {
   header a img {
-    position: static; 
-    margin-bottom: 10px; 
+    position: static;
+    margin-bottom: 10px;
   }
+
   header nav {
-    padding-left: 0; 
+    padding-left: 0;
   }
 }
 
@@ -115,7 +120,7 @@ header nav a:hover {
   background-color: var(--sandal);
   color: var(--double-spanish-white);
 }
-  
+
 /* Main */
 main {
   text-align: left;
@@ -125,17 +130,17 @@ main {
   width: 100%;
 }
 
-main p{
+main p {
   font-size: 18px;
   text-align: left;
   width: 80%;
   color: var(--double-spanish-white);
   line-height: 25px;
   text-wrap: auto;
-  
+
 }
 
-main li{
+main li {
   font-size: 18px;
   width: 80%;
   margin: 0 auto;
@@ -146,7 +151,11 @@ p {
   width: 80%;
   margin: 0 auto;
 }
-  
+
+main a {
+  color: var(--double-spanish-white);
+}
+
 /* Footer */
 footer {
   font-size: 16px;
@@ -163,7 +172,7 @@ footer p {
   margin: 5px auto;
   text-align: center;
 }
-    
+
 footer nav ul {
   list-style: none;
   padding: 0;
@@ -172,20 +181,20 @@ footer nav ul {
   justify-content: center;
   gap: 20px;
 }
-  
+
 footer nav li {
   font-size: 18px;
   color: var(--cedar);
   display: inline;
   margin: 0 5px;
 }
-  
+
 footer nav a {
   border-style: solid;
   border-width: 2px;
   border-color: var(--sandal);
   border-radius: 5px;
-  
+
   text-decoration: none;
   padding: 5px;
   color: var(--cedar);
@@ -196,6 +205,5 @@ footer nav a:hover {
 }
 
 footer nav a:visited {
-  color: var(--cedar); 
+  color: var(--cedar);
 }
-  

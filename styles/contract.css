@@ -207,3 +207,8 @@ footer nav a:hover {
 footer nav a:visited {
   color: var(--cedar);
 }
+
+#tagline {
+  color:var(--cedar);
+  font-size: 16px;
+}

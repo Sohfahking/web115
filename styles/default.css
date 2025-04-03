@@ -220,7 +220,7 @@ footer p {
   margin: 5px auto;
   text-align: center;
 }
-    
+
 footer nav ul {
   list-style: none;
   padding: 0;
@@ -236,7 +236,7 @@ footer nav li {
   display: inline;
   margin: 0 5px;
 }
-  
+
 footer nav a {
   border-style: solid;
   border-width: 2px;
@@ -247,11 +247,11 @@ footer nav a {
   color: var(--cedar);
 }
 
+
 footer nav a:hover {
   background-color: var(--sandal);
 }
 
 footer nav a:visited {
-  color: var(--cedar); 
+  color: var(--cedar);
 }
-  

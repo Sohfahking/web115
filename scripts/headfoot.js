@@ -1,21 +1,27 @@
 // Function to load external HTML
-function loadComponent(elementId, filePath) {
+
+function loadComponent(tagName, filePath) {
     fetch(filePath)
-        .then((response) => {
+        .then(function (response) {
             if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
+                throw new Error("HTTP error! Status: " + response.status);
             }
             return response.text();
         })
-        .then((data) => {
-            document.getElementById(elementId).innerHTML = data;
+        .then(function (data) {
+            const elements = document.getElementsByTagName(tagName);
+            if (elements.length > 0) {
+                elements[0].innerHTML = data;
+            } else {
+                console.error("No <" + tagName + "> element found in the document.");
+            }
         })
-        .catch((error) => {
-            console.error(`Error loading ${filePath}:`, error);
+        .catch(function (error) {
+            console.error("Error loading " + filePath + ":", error);
         });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    loadComponent("header-dynamic", "header.html");
-    loadComponent("footer-dynamic", "footer.html");
+    loadComponent("header", "header.html");
+    loadComponent("footer", "footer.html");
 });

@@ -1,0 +1,243 @@
+/* Global Styles */
+:root {
+    /* Palette */
+    --cod-gray: #100f0f;
+    --double-spanish-white: #ebe3c3;
+    --old-copper: #7c5434;
+    --sandal: #a99273;
+    --heathered-gray: #baad93;
+    --leather: #9c7c5c;
+    --cedar: #3c2414;
+}
+
+/* General Styles */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: var(--cedar);
+}
+
+h2,
+h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: var(--double-spanish-white);
+}
+
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: var(--double-spanish-white);
+    margin: 0 auto;
+}
+
+/* Logo */
+header img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 75px;
+}
+
+header nav ul {
+    margin: 20px 35px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+header nav li {
+    padding: 10px;
+}
+
+header nav a {
+    font-size: 18px;
+    color: var(--cedar);
+    background-color: var(--double-spanish-white);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--sandal);
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    header a img {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        padding-left: 0;
+    }
+}
+
+header nav a:hover {
+    background-color: var(--sandal);
+    color: var(--double-spanish-white);
+}
+
+form {
+    width: 65%;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 55px auto;
+    background-color: var(--cedar);
+    border: 2px solid var(--double-spanish-white);
+    border-radius: 5px;
+}
+
+label {
+    padding-left: 25px;
+    display: block;
+    margin: 25px auto;
+    color: var(--double-spanish-white);
+}
+
+input,
+textarea {
+    background-color: var(--sandal);
+    border: 2px solid var(--cedar);
+    border-radius: 5px;
+    color: var(--cod-gray);
+    margin: 20px;
+    width: 80%;
+    height: 35px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#submit {
+    color: var(--cod-gray);
+    background-color: var(--double-spanish-white);
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid var(--cod-gray);
+    border-radius: 5px;
+}
+
+/* Main */
+main {
+    text-align: left;
+    background-color: var(--old-copper);
+    flex: 1;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main p {
+    font-size: 18px;
+    text-align: left;
+    width: 80%;
+    color: var(--double-spanish-white);
+    line-height: 25px;
+    text-wrap: auto;
+
+}
+
+main li {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main a {
+    color: var(--double-spanish-white);
+}
+
+/* Footer */
+footer {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    color: var(--cedar);
+    background-color: var(--double-spanish-white);
+}
+
+footer p {
+    font-size: 16px;
+    color: var(--cedar);
+    line-height: 30px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav li {
+    font-size: 18px;
+    color: var(--cedar);
+    display: inline;
+    margin: 0 5px;
+}
+
+footer nav a {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--sandal);
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: 5px;
+    color: var(--cedar);
+}
+
+footer nav a:hover {
+    background-color: var(--sandal);
+}
+
+footer nav a:visited {
+    color: var(--cedar);
+}
+
+#tagline {
+    color: var(--cedar);
+    font-size: 16px;
+}

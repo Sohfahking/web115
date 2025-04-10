@@ -130,6 +130,7 @@ main figure, figcaption{
   text-align: center;
   color: var(--double-spanish-white);
   line-height: 20px;
+  text-align: center;
 }
 
 p {

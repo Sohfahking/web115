@@ -22,6 +22,6 @@ function loadComponent(tagName, filePath) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    loadComponent("header", "header.html");
-    loadComponent("footer", "footer.html");
+    loadComponent("header", "components/header.html");
+    loadComponent("footer", "components/footer.html");
 });

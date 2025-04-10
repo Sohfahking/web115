@@ -107,49 +107,6 @@ header nav a:hover {
     color: var(--double-spanish-white);
 }
 
-form {
-    width: 65%;
-    max-width: 1000px;
-    min-width: 300px;
-    margin: 55px auto;
-    background-color: var(--cedar);
-    border: 2px solid var(--double-spanish-white);
-    border-radius: 5px;
-}
-
-label {
-    padding-left: 25px;
-    display: block;
-    margin: 25px auto;
-    color: var(--double-spanish-white);
-}
-
-input,
-textarea {
-    background-color: var(--sandal);
-    border: 2px solid var(--cedar);
-    border-radius: 5px;
-    color: var(--cod-gray);
-    margin: 20px;
-    width: 80%;
-    height: 35px;
-}
-
-.inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
-}
-
-#submit {
-    color: var(--cod-gray);
-    background-color: var(--double-spanish-white);
-    margin: 15px;
-    padding: 5px;
-    border: 2px solid var(--cod-gray);
-    border-radius: 5px;
-}
-
 /* Main */
 main {
     text-align: left;
@@ -183,6 +140,48 @@ p {
 
 main a {
     color: var(--double-spanish-white);
+}
+
+form {
+    width: 65%;
+    max-width: 850px;
+    min-width: 400px;
+    margin: 55px auto;
+    background-color: var(--cedar);
+    border: 2px solid var(--double-spanish-white);
+    border-radius: 5px;
+}
+
+label {
+    padding-left: 25px;
+    display: block;
+    margin: 25px auto;
+    color: var(--double-spanish-white);
+}
+
+input {
+    background-color: var(--sandal);
+    border: 2px solid var(--cedar);
+    border-radius: 5px;
+    color: var(--cod-gray);
+    margin: 20px;
+    width: 80%;
+    height: 35px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#submit {
+    color: var(--cod-gray);
+    background-color: var(--double-spanish-white);
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid var(--cod-gray);
+    border-radius: 5px;
 }
 
 /* Footer */

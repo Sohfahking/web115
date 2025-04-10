@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = 1; i <= countTo; i++) {
             const isEven = (i % 2 === 0) ? "even" : "odd";
             const paragraph = document.createElement("p");
-            paragraph.textContent = `${i}. Stitch Counter - The number is ${isEven}`;
+            paragraph.textContent = `${i}. Stitch Counter - The stitch number is ${isEven}`;
             resultsContainer.appendChild(paragraph);
         }
     });

@@ -20,16 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("greeting").textContent = `Welcome to Made By Dice, ${fullName}!`;
 
         // Ask user for a number
-        let countTo = prompt(`How many stitches would you like to count, ${firstName}? (Max: 500)`);
+        let countTo = prompt(`How many stitches would you like to count, ${firstName}? (Max: 125)`);
         countTo = parseInt(countTo, 10);
 
         // Validate input: Ensure it's a number and within the limit
         if (isNaN(countTo) || countTo <= 0) {
             alert("Please enter a positive integer greater than 0.");
             return;
-        } else if (countTo > 500) {
-            alert("The upper limit is 500. Now counting to 500....");
-            countTo = 500; // Restrict to the maximum allowed number
+        } else if (countTo > 125) {
+            alert("The upper limit is 125. Now counting to 125....");
+            countTo = 125; // Restrict to the maximum allowed number
         }
 
         // Check if a results container already exists, if not, create one

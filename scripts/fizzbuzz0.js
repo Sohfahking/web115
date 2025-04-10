@@ -1,7 +1,7 @@
 // Wait for the page to fully load before running the script
 document.addEventListener("DOMContentLoaded", function () {
     // Prevent form submission & handle everything inside the event listener
-    document.getElementById("name-form").addEventListener("submit", function (event) {
+    document.getElementById("name-info").addEventListener("submit", function (event) {
         event.preventDefault(); // Prevents the form from refreshing the page
 
         // Get user input values

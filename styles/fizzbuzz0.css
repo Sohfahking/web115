@@ -133,9 +133,8 @@ main li {
 }
 
 p {
-    border-radius: 5px;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 main a {

@@ -243,3 +243,11 @@ footer nav a:hover {
 footer nav a:visited {
   color: var(--cedar);
 }
+
+footer a{
+  color: var(--cedar);
+}
+
+footer nav a:visited {
+  color: var(--cedar);
+}

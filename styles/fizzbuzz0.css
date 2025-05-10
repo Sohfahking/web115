@@ -239,3 +239,11 @@ footer nav a:visited {
     color: var(--cedar);
     font-size: 16px;
 }
+
+footer a{
+    color: var(--cedar);
+  }
+  
+  footer nav a:visited {
+    color: var(--cedar);
+  }
